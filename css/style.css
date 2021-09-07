@@ -1,0 +1,263 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*Обнуление*/
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  min-width: 1200px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.header {
+  max-width: 100%;
+}
+
+.card {
+  padding: 30px;
+  background-image: url("../img/bacground_озон-3500 1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1110px;
+}
+
+.card__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  color: #ffff;
+  margin: 5% 0px 0px 15%;
+}
+
+.card__price {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 60px;
+  color: #ffff;
+  margin: 30px 0px 0px 15%;
+}
+
+.card__link {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  color: #ffff;
+  margin: 50px 0px 0px 15%;
+}
+
+.card__niz {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 25px;
+  color: #E1AFF2;
+  margin: 90px 0px 0px 15%;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content__vnut {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.type-1 {
+  width: 724px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #9B58C1;
+  -webkit-box-shadow: 0px 0px 20px rgba(155, 88, 193, 0.4);
+          box-shadow: 0px 0px 20px rgba(155, 88, 193, 0.4);
+  border-radius: 5px;
+}
+
+.type-2 {
+  width: 724px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #9B58C1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.type-3 {
+  width: 724px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 1px solid #9B58C1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.content__bottom {
+  text-align: center;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #808080;
+  margin: 20px 0px 20px 0px;
+}
+
+.text__bottom {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.botton {
+  text-align: center;
+}
+
+.button__vnut {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.footer__block {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.imag__bootom {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 87.26px;
+  height: 87.26px;
+}
+
+.footer__text {
+  text-align: center;
+  max-width: 730px;
+  max-height: 360px;
+  background: #A32CE8;
+  margin: 0px 0px 0px 40px;
+}
+
+.footertext {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  color: #F9EDFD;
+  padding: 20px;
+}
